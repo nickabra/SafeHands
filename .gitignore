@@ -1,0 +1,29 @@
+# Android Studio
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/libraries/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+.DS_Store
+
+# Keystore e file sensibili
+*.jks
+*.keystore
+google-services.json
+apikeys.properties
+secrets.properties
+
+# Log e debug
+*.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.firebase/
+firebase-debug.log

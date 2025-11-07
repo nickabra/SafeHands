@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#60FFFFFF"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <!-- Titolo della notifica -->
+        <TextView
+            android:id="@+id/tvNotifyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuova misurazione"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="17sp"
+            android:textColor="#212121" />
+
+        <!-- Corpo (dettagli) -->
+        <TextView
+            android:id="@+id/tvNotifyBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:text="Orario: XX:XX\nValore: XXX"
+            android:textSize="15sp"
+            android:textColor="#212121" />
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/tvNotifyTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="1999-10-10 10:10"
+            android:textSize="15sp"
+            android:textColor="#DD2C00" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

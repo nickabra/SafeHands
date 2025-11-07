@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeHands" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Qui puoi aggiungere eventuali personalizzazioni -->
+    </style>
+</resources>

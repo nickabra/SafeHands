@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/gridLayoutParameters"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2"
+            android:useDefaultMargins="true">
+
+            <!-- Card Pressione -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_card"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:minWidth="160dp"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!--android:drawableTop="@drawable/ic_blood_pressure"-->
+                <Button
+                    android:id="@+id/btnPressure"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:elevation="4dp"
+                    android:stateListAnimator="@null"
+                    android:text="Pressione"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    app:backgroundTint="#007BFF"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnSendPressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@null"
+                    android:text="Invia"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#6C757D"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+
+            <!-- Card Glicemia -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_card"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:minWidth="160dp"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!--android:drawableTop="@drawable/ic_glucose"-->
+                <Button
+                    android:id="@+id/btnGlucose"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:elevation="4dp"
+                    android:stateListAnimator="@null"
+                    android:text="Glicemia"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    app:backgroundTint="#28A745"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnSendGlucose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@null"
+                    android:text="Invia"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#6C757D"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+
+            <!-- Card Ossigenazione -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_card"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:minWidth="160dp"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!--android:drawableTop="@drawable/ic_oxygen"-->
+                <Button
+                    android:id="@+id/btnOxygen"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:elevation="4dp"
+                    android:stateListAnimator="@null"
+                    android:text="Ossigenazione"
+                    android:textColor="@android:color/white"
+                    android:textSize="11sp"
+                    app:backgroundTint="#17A2B8"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnSendOxygen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@null"
+                    android:text="Invia"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#6C757D"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+
+            <!-- Card Temperatura -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_card"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:minWidth="160dp"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!--android:drawableTop="@drawable/ic_temperature"-->
+                <Button
+                    android:id="@+id/btnTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:elevation="4dp"
+                    android:stateListAnimator="@null"
+                    android:text="Temperatura"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    app:backgroundTint="#FFC107"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnSendTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@null"
+                    android:text="Invia"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#6C757D"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+
+        </GridLayout>
+    </FrameLayout>
+</ScrollView>

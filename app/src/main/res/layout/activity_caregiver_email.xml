@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@drawable/bg_gradient">
+
+    <EditText
+        android:id="@+id/insertParentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inserisci Parent Email"
+        android:padding="16dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCFFFFFF"
+        android:inputType="text"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Continua"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="16dp"
+        app:backgroundTint="#3F51B5"
+        app:strokeWidth="2dp"
+        android:stateListAnimator="@null"/>
+</LinearLayout>

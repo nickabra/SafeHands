@@ -1,0 +1,10 @@
+toml
+[versions]
+androidxCoreKtx = "1.12.0"
+androidxLifecycleRuntimeKtx = "2.7.0"
+# ... and so on for all your libraries
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycleRuntimeKtx" }
+# ... and so on
